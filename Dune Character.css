@@ -31,7 +31,7 @@ textarea {
   display: block;
   width: 934px;
   height: 1184px;
-  background-image: url('https://i.ibb.co/52wMrKt/Dune-Char-Sheet.png');
+  background-image: url('https://github.com/Wasderfui/Dune-Character-Sheet/blob/main/DuneCharSheet.png');
   background-repeat: no-repeat;
 }
 .sheet-tabstoggle[value="house"] ~ .sheet-house {
