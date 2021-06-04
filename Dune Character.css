@@ -1,0 +1,405 @@
+/*Baseline*/
+input {
+  position: absolute;
+  background: transparent; 
+  resize: none;
+/*   border: 0 none;    */
+  font-size: medium;
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+textarea {
+  position: absolute;
+  background: transparent; 
+  resize: none;
+/*   border: 0 none; */
+  height: auto;
+  font-size: medium;
+  outline: none;
+}
+
+.sheet-character,
+.sheet-house{
+  display: none;
+}
+
+.sheet-tabstoggle[value="character"] ~ .sheet-character {
+  display: block;
+  width: 934px;
+  height: 1184px;
+  background-image: url('https://i.ibb.co/52wMrKt/Dune-Char-Sheet.png');
+  background-repeat: no-repeat;
+}
+.sheet-tabstoggle[value="house"] ~ .sheet-house {
+  display: block;
+  width: 934px;
+  height: 1184px;
+  background-image: url('https://i.ibb.co/Kh5krYD/Dune-House-Sheet.png');
+  background-repeat: no-repeat;
+}
+
+/*Character*/
+/*Inputs*/
+.name {
+  width: 320px;
+  top: 283px;
+  left: 115px;
+}
+.house {
+  width: 320px;
+  top: 329px;
+  left: 115px;
+}
+.role {
+  width: 320px;
+  top: 375px;
+  left: 115px;
+}
+.faction {
+  width: 320px;
+  top: 420px;
+  left: 115px;
+}
+
+.ambition {
+  width: 320px;
+  top: 443px;
+  left: 513px;
+}
+.duty {
+  width: 220px;
+  top: 558px;
+  left: 293px;
+}
+.faith {
+  width: 220px;
+  top: 613px;
+  left: 293px;
+}
+.justice {
+  width: 220px;
+  top: 668px;
+  left: 293px;
+}
+.power {
+  width: 220px;
+  top: 723px;
+  left: 293px;
+}
+.truth {
+  width: 220px;
+  top: 778px;
+  left: 293px;
+}
+.battle{
+  width: 220px;
+  top: 919px;
+  left: 293px;
+}
+.communicate {
+  width: 220px;
+  top: 974px;
+  left: 293px;
+}
+.discipline {
+  width: 220px;
+  top: 1029px;
+  left: 293px;
+}
+.move {
+  width: 220px;
+  top: 1084px;
+  left: 293px;
+}
+.understand {
+  width: 220px;
+  top: 1139px;
+  left: 293px;
+}
+
+.personalitytrait {
+  width: 320px;
+  height: 100px;
+  top: 311px;
+  left: 513px;
+}
+.talents {
+  width: 220px;
+  height: 200px;
+  top: 551px;
+  left: 630px;
+}
+.assets {
+  width: 180px;
+  height: 160px;
+  top: 861px;
+  left: 650px;
+}
+
+.dutyno {
+  width: 18px;
+  top: 558px;
+  left: 248px;
+}
+.faithno {
+  width: 18px;
+  top: 613px;
+  left: 248px;
+}
+.justiceno {
+  width: 18px;
+  top: 668px;
+  left: 248px;
+}
+.powerno {
+  width: 18px;
+  top: 723px;
+  left: 248px;
+}
+.truthno {
+  width: 18px;
+  top: 778px;
+  left: 248px;
+}
+.battleno {
+  width: 18px;
+  top: 919px;
+  left: 248px;
+}
+.communicateno {
+  width: 18px;
+  top: 974px;
+  left: 248px;
+}
+.disciplineno {
+  width: 18px;
+  top: 1029px;
+  left: 248px;
+}
+.moveno {
+  width: 18px;
+  top: 1084px;
+  left: 248px;
+}
+.understandno {
+  width: 18px;
+  top: 1139px;
+  left: 248px;
+}
+.advanceno {
+  width: 18px;
+  top: 1127px;
+  left: 667px;
+}
+.determination {
+  width: 18px;
+  top: 1127px;
+  left: 792px;
+}
+
+/*House*/
+/*Inputs*/
+.housename {
+  width: 400px;
+  top: 282px;
+  left: 118px;
+}
+.homeworld{
+  width: 400px;
+  top: 327px;
+  left: 118px;
+}
+.housetype   {
+  width: 400px;
+  top: 372px;
+  left: 118px;
+} 
+.traits      {
+  width: 400px;
+  top: 417px;
+  left: 118px;
+}
+.motto       {
+  width: 180px;
+  top: 453px;
+  left: 650px;
+}
+.domains     {
+  width: 754px;
+  top: 537px;
+  left: 98px;
+}
+.ruler       {
+  width: 264px;
+  top: 711px;
+  left: 187px;
+}
+.consort     {
+  width: 264px;
+  top: 737px;
+  left: 187px;
+}
+.heir       {
+  width: 264px;
+  top: 762px;
+  left: 187px;
+}
+.advisor     {
+  width: 264px;
+  top: 788px;
+  left: 187px;
+}
+.chiefphysician{
+  width: 264px;
+  top: 814px;
+  left: 187px;
+}
+.councillor   {
+  width: 264px;
+  top: 840px;
+  left: 187px;
+}
+.envoy      {
+	
+  width: 264px;
+  top: 866px;
+  left: 187px;
+}
+.marshall   {
+  width: 275px;
+  top: 723px;
+  left: 572px;
+}
+.scholar      {
+  width: 275px;
+  top: 749px;
+  left: 572px;
+}
+.spymaster    {
+  width: 275px;
+  top: 775px;
+  left: 572px;
+}
+.swordmaster  {
+  width: 275px;
+  top: 801px;
+  left: 572px;
+}
+.treasurer    {
+  width: 275px;
+  top: 827px;
+  left: 572px;
+}
+.warmaster    {	
+  width: 275px;
+  top: 853px;
+  left: 572px;
+}
+
+.e1_name      {
+  width: 121px;
+  top: 950px;
+  left: 146px;
+}
+.e1_type      {
+  width: 111px;
+  top: 950px;
+  left: 325px;
+}
+.e1_hatred{
+  width: 121px;
+  top: 976px;
+  left: 146px;
+}
+.e1_reason    {
+  width: 111px;
+  top: 976px;
+  left: 325px;
+}
+.e1_notes {
+  width: 320px;
+  top: 1015px;
+  left: 108px;
+}
+
+.e2_name      {
+  width: 121px;
+  top: 950px;
+  left: 555px;
+}
+.e2_type      {
+  width: 111px;
+  top: 950px;
+  left: 734px;
+}
+.e2_hatred{
+  width: 121px;
+  top: 976px;
+  left: 555px;
+}
+.e2_reason    {
+  width: 111px;
+  top: 976px;
+  left: 734px;
+}
+.e2_notes {
+  width: 320px;
+  top: 1015px;
+  left: 517px;
+}
+
+.e3_name      {
+  width: 121px;
+  top: 1074px;
+  left: 146px;
+}
+.e3_type      {
+  width: 111px;
+  top: 1074px;
+  left: 325px;
+}
+.e3_hatred{
+  width: 121px;
+  top: 1100px;
+  left: 146px;
+}
+.e3_reason    {
+  width: 111px;
+  top: 1100px;
+  left: 325px;
+}
+.e3_notes {
+  width: 320px;
+  top: 1139px;
+  left: 108px;
+}
+
+.e4_name      {
+  width: 121px;
+  top: 1074px;
+  left: 555px;
+}
+.e4_type      {
+  width: 111px;
+  top: 1074px;
+  left: 734px;
+}
+.e4_hatred{
+  width: 121px;
+  top: 1100px;
+  left: 555px;
+}
+.e4_reason    {
+  width: 111px;
+  top: 1100px;
+  left: 734px;
+}
+.e4_notes {
+  width: 320px;
+  top: 1139px;
+  left: 517px;
+}
